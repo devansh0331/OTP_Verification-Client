@@ -54,7 +54,7 @@ function OTPVerification() {
       <SuccessPopup
         open={open}
         handleHome={() => navigate("/")}
-        hanldeReadDocs={() => navigate("/docs")}
+        handleReadDocs={() => navigate("/docs")}
         handleOpen={handleOpen}
       />
       <div className="w-full md:w-4/5 h-4/5 md:flex:1 flex flex-col md:flex-row items-center justify-evenly rounded-xl p-2 md:p-5 shadow-2xl bg-customgray-dark">
