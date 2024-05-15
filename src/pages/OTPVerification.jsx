@@ -76,7 +76,7 @@ function OTPVerification() {
               onChange={(e) => setOTP(e.target.value)}
             />
           </div>
-          <div className="w-full flex flex-col md:flex-row items-center justify-evenly md:justify-start text-xl mt-3">
+          <div className="w-full flex flex-col md:flex-row items-center justify-evenly md:justify-between text-xl mt-3">
             <button
               onClick={handleSubmit}
               className="w-full md:w-2/5 bg-red-600 text-white px-5 py-1 rounded-md hover:bg-red-900 mt-3"
