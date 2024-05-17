@@ -19,7 +19,7 @@ function Demo() {
         toast.error("Please enter a valid email address");
       } else {
         // setVisible(true);
-        if (email.slice("@")[1] != "gmail") {
+        if (email.slice("@")[1].trim() != "gmail.com") {
           toast.error("Please enter a valid gmail address");
           // setVisible(false);
         } else {
